@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "timespros",
+  "info": {
+    "singularName": "timespro",
+    "pluralName": "timespros",
+    "displayName": "timespro",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {
+    "employee_name": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "email"
+    }
+  }
+}

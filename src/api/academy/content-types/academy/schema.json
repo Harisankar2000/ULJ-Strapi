@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academy",
+  "info": {
+    "singularName": "academy",
+    "pluralName": "academies",
+    "displayName": "academy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "coursename": {
+      "type": "string"
+    },
+    "coursefees": {
+      "type": "integer",
+      "required": true
+    },
+    "courseduration": {
+      "type": "string"
+    },
+    "City": {
+      "type": "enumeration",
+      "enum": [
+        "cuttack",
+        "bhubaneshwar",
+        "nayagarh",
+        "Goregaon",
+        "Jogeshwari",
+        "Mallapur",
+        "Jubilee Hills",
+        "Secunderabad"
+      ],
+      "required": true
+    },
+    "State": {
+      "type": "enumeration",
+      "enum": [
+        "Odisha",
+        "Maharashtra",
+        "Hyderabad"
+      ],
+      "required": false
+    },
+    "location": {
+      "type": "string"
+    },
+    "status": {
+      "type": "boolean",
+      "default": true
+    },
+    "courseDetails": {
+      "type": "string"
+    }
+  }
+}
